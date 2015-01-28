@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Space Calculator"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnlBasic" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlBasic" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlBasic">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="pnlToDate" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="pnlECEFllh" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlToDate" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="pnlECEFllh" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlToDate">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblDOY" pref="50" max="32767" attributes="0"/>
+                          <Component id="jLabel1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtSecond" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="txtDOY" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="lblGPSWeek" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="btnGPSSec" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txtGPSWeek" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Component id="btnDOY" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtDay" min="-2" pref="117" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtDateDOY" pref="118" max="32767" attributes="0"/>
+                          <Component id="txtTime" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnDOYClr" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtDOY" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lblDOY" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lblGPSWeek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtGPSWeek" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnDOY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDateDOY" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="btnDOYClr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtSecond" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" max="32767" attributes="0"/>
+                          <Component id="btnGPSSec" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTime" alignment="3" pref="30" max="32767" attributes="0"/>
+                          <Component id="txtDay" pref="30" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="txtDOY">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDOYActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtGPSWeek">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDOY">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Convert"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDOYActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnGPSSec">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Convert"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGPSSecActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDateDOY">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDateDOYActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtSecond">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDOYClr">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDOYClrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDOY">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DOY"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblGPSWeek">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="GPS Week"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sec"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtDay">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtTime">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlECEFllh">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblECEF" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblLLH" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblX" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblLatN" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="btnECEFtoLLH" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                      <Component id="btnLLH2ECEF" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Component id="btnClear" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtLatN" pref="112" max="32767" attributes="0"/>
+                                          <Component id="txtX" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblY" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtY" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="lblLonE" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtLonE" min="-2" pref="105" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="lblZ" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtZ" min="-2" pref="110" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="lblHeighte" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtHeighte" min="-2" pref="107" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pnlENUAzEl" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="lblECEF" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblX" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="txtX" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtY" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="txtZ" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblY" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblZ" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLLH" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lblLatN" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="txtLatN" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lblLonE" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="txtLonE" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lblHeighte" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="txtHeighte" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnECEFtoLLH" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLLH2ECEF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="btnClear" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="pnlENUAzEl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblECEF">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ECEF Coordinate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblX">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X-Coordinate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblY">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Y- Coordinate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblZ">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Z- Coordinate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtX">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtY">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtZ">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblLLH">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="LLH Coordinate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblLatN">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latitude -N"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtLatN">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblLonE">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Longitute -E"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtLonE">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblHeighte">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Height- ellepsoid"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtHeighte">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnECEFtoLLH">
+              <Properties>
+                <Property name="label" type="java.lang.String" value="Convert ECEF 2 LLH"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnECEFtoLLHActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnLLH2ECEF">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Convert LLH 2 ECEF"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLLH2ECEFActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnClear">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClearActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="pnlENUAzEl">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="lblGivenPosition1" min="-2" pref="133" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="lblEast" min="-2" pref="67" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txtEast" min="-2" pref="103" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="lblAzEl" min="-2" pref="208" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="btnClearx" min="-2" pref="77" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="txtRx" alignment="1" min="-2" pref="92" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblRy1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAz" min="-2" pref="43" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtAz" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="txtRL" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="txtSaty" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="txtSatL" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="txtNorth" min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblGivenPosition" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSatellite" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSatellite1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblGivenPosition2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblRx" min="-2" pref="22" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblSatx1" alignment="1" min="-2" pref="43" max="-2" attributes="0"/>
+                                              <Component id="lblSatx" alignment="1" min="-2" pref="22" max="-2" attributes="0"/>
+                                              <Component id="lblRx1" alignment="1" min="-2" pref="41" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtRB" max="32767" attributes="0"/>
+                                      <Component id="txtSatx" alignment="0" pref="82" max="32767" attributes="0"/>
+                                      <Component id="txtSatB" alignment="1" min="-2" pref="81" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="lblRy3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblRz1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="lblSaty" min="-2" pref="24" max="-2" attributes="0"/>
+                                          <EmptySpace min="165" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="lblUp" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="lblRy2" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="lblSatz" alignment="1" min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Component id="lblRy" min="-2" pref="24" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Component id="txtRy" min="-2" pref="109" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblRz" min="-2" pref="32" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="lblSaty1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblSatz1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Component id="btnCalculate" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtRH" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Component id="txtSatz" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Component id="txtRz" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
+                                  <Component id="txtUp" alignment="1" min="-2" pref="106" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="txtSatH" min="-2" pref="88" max="-2" attributes="0"/>
+                              <Component id="txtEl" alignment="0" min="-2" pref="92" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblSatellite1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="lblSatx1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtSatB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblSaty1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtSatL" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblSatellite" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="lblSatx" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtSatx" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblSaty" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtSaty" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="txtRH" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblRz1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblGivenPosition2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="lblRx1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtRB" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblRy3" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtRL" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtSatH" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="lblSatz1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtSatz" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="lblSatz" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="txtRz" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblRz" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblGivenPosition" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="lblRx" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="txtRx" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="lblRy" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnCalculate" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtRy" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="lblEast" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="txtEast" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lblUp" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblGivenPosition1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="lblRy1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="txtNorth" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="txtUp" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btnClearx" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="txtAz" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                              <Component id="lblAz" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                                              <Component id="lblRy2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                              <Component id="txtEl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="lblAzEl" min="-2" pref="36" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblSatellite">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Satellite Position (ECEF)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSatx">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="X:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSatx">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSaty">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Y:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSaty">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSatyActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSatz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Z:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSatz">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblGivenPosition">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Receiver Position (ECEF)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRx">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="X0:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRx">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRy">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Y0:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRy">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Z0:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRz">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnCalculate">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Calculate"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalculateActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnClearx">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Clear"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClearxActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblGivenPosition1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="ENU Position (E,N,U)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblEast">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="East (Km)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtEast">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRy1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="North (Km)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNorth">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblUp">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Up (Km)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtUp">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAzEl">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Value of Az and El at Rx (x0,y0,z0)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Az(Deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtAz">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRy2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="E(Deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtEl">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSatellite1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Satellite Position (B,L,H)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSatx1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lat(deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSatB">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSaty1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lon(deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSatL">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSatLActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSatz1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Height(km)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSatH">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="42166"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblGivenPosition2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Receiver Position (B,L,H)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRx1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lat(deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRB">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRy3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lon(deg)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRL">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRz1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Height(km)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtRH">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
